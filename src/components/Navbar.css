@@ -1,0 +1,11 @@
+.selected {
+    font-weight: bold;
+}
+.selected::after {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 2px;
+    border-bottom: 2px solid white;
+}
